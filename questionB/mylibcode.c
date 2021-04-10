@@ -2,6 +2,8 @@
 #include<string.h>
 
 
-char* affiche(char *string){
-	return string;
+int affiche(char *string1, char *string2){
+	if(string1<string2) return -1;
+	if(string1>string2) return 1;
+	return 0;
 }

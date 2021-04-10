@@ -14,3 +14,4 @@ librarytest: librarytest.c mylibcode.o
 clean :
 	rm -f *.out
 	rm -f *.o
+	rm -f librarytest

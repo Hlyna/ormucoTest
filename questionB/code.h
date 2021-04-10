@@ -3,7 +3,7 @@
 #define __CODE_H__
 
 
-char* affiche(char *string);
+int affiche(char *string1,char *string2);
 
 #endif
 
